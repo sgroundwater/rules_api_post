@@ -1,15 +1,25 @@
-This module adds an action wrapping of drupal_http_request to use Rules for
-making http requests. It has many general uses, because the Hypertext Transfer
-Protocol is the foundation of web data communication.
+# Rules API POST data
 
-For Drupal in particular, it is a great complement to the RestWS module. Simply,
-set the Accept Header parameter to "application/xml" and the remote Drupal
-instance will serve an XML file which can be parsed using Rules XPath Parser.
+This module adds a Rules action for posting content to to a remote API.
+
+The base of this module was borrowed from the "HTTP Client" project.
+See: https://www.drupal.org/project/rules_http_client
+
+Along with a  simple Rules plugin, some extra configs are included for
+an API Transaction content type. 
+
+Behind the scene, "drupal_http_request" (curl) is used to
+make the HTTP calls, Rules handles the UI to setting you authentication
+and header data.
+
+Look for a new Rules action "Rules API POST data" action within your Rules.
+
+Open Source Historic Shout Out & Credits:
+Thanks to all those who have helped along the way.
 
 Rules HTTP Client was originally created by Mitchell Tannenbaum (mitchell) and
-is currently co-maintained by Stuart Clark (Deciphered) and Benjamin Melançon
-(mlncn).
-
+co-maintained by Stuart Clark (Deciphered) and Benjamin Melançon
+(mlncn). The Drupal 8 porting was done by Ajay Nimbolkar (ajayNimbolkar).
 
 
 Required modules
