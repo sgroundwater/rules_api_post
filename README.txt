@@ -1,6 +1,6 @@
 # Rules API POST data
 
-This module adds a Rules action for posting content to to a remote API.
+This module adds a Rules action for posting content to a remote API.
 
 The base of this module was borrowed from the "HTTP Client" project.
 See: https://www.drupal.org/project/rules_http_client
