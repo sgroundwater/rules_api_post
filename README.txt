@@ -2,7 +2,7 @@
 
 This module adds a Rules action for posting content to a remote API.
 
-The base of this module was borrowed from the "HTTP Client" project.
+The base of this module was borrowed from the "Rules HTTP Client" project.
 See: https://www.drupal.org/project/rules_http_client
 
 Along with a  simple Rules plugin, some extra configs are included for
