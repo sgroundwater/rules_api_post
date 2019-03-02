@@ -6,7 +6,7 @@ The base of this module was borrowed from the "Rules HTTP Client" project.
 See: https://www.drupal.org/project/rules_http_client
 
 Along with a  simple Rules plugin, some extra configs are included for
-an API Transaction content type. 
+adding an API Transaction content type. 
 
 Behind the scene, "drupal_http_request" (curl) is used to
 make the HTTP calls, Rules handles the UI to setting you authentication
